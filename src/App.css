@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myBody {
+  background-color: var(--bgColor) !important;
+  position: relative;
+}
+
+.colorable{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  clip-path: polygon(24% 0, 100% 0, 100% 100%, 60% 100%);
+  width: 45rem;
+  height: 100vh;
+  z-index: 1;
+  box-shadow: -26px 0px 62px -0px #fff !important;
+}
